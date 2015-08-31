@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/dan_mu_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹幕" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="1dp" >
+
+    <com.example.testdanmu.DanMuView
+        android:id="@+id/view_danmu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </RelativeLayout>
+    
+</RelativeLayout>
